@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package perkakas.proto;
+option go_package =  "github.com/tigapilarmandiri/perkakas/proto";
+
+
+message Requests {
+  bytes authorization = 1;
+  bytes data = 2;
+  // Help to pass the uuid if needed
+  string uuid = 3;
+  RequestMeta meta = 4;
+}
+
+message RequestMeta {
+  int32 page = 1;
+  int32 limit = 2;
+  string filter = 3;
+  string sort = 4;
+}
+
+message Responses {
+  int32 status = 1;
+  string message = 2;
+  bytes data = 3;
+  bytes debug = 4;
+  ResponseMeta meta = 5;
+}
+
+message ResponseMeta {
+  int32 page = 1;
+  int32 limit = 2;
+  int64 total_data = 3;
+  int64 total_page = 4;
+}
