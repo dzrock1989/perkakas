@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/tigapilarmandiri/perkakas/configs"
+	"github.com/dzrock1989/perkakas/configs"
 
 	postgres2 "go.elastic.co/apm/module/apmgormv2/v2/driver/postgres"
 	"gorm.io/driver/postgres"
