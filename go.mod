@@ -1,4 +1,4 @@
-module github.com/tigapilarmandiri/perkakas
+module github.com/dzrock1989/perkakas
 
 go 1.19
 
