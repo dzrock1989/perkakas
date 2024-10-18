@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tigapilarmandiri/perkakas/common/constant"
-	"github.com/tigapilarmandiri/perkakas/common/test"
-	"github.com/tigapilarmandiri/perkakas/common/util"
-	"github.com/tigapilarmandiri/perkakas/configs"
+	"github.com/dzrock1989/perkakas/common/constant"
+	"github.com/dzrock1989/perkakas/common/test"
+	"github.com/dzrock1989/perkakas/common/util"
+	"github.com/dzrock1989/perkakas/configs"
 )
 
 type testValidation struct {
