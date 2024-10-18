@@ -3,7 +3,7 @@ package mail
 import (
 	"testing"
 
-	"github.com/tigapilarmandiri/perkakas/common/util"
+	"github.com/dzrock1989/perkakas/common/util"
 )
 
 func TestMail(t *testing.T) {
