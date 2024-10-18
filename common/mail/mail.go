@@ -4,7 +4,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/tigapilarmandiri/perkakas/configs"
+	"github.com/dzrock1989/perkakas/configs"
 	"gopkg.in/gomail.v2"
 )
 
