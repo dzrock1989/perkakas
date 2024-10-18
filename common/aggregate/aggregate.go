@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tigapilarmandiri/perkakas/common/middlewares/authorization"
+	"github.com/dzrock1989/perkakas/common/middlewares/authorization"
 )
 
 var (
